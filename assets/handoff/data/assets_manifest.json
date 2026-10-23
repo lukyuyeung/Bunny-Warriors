@@ -1,0 +1,240 @@
+{
+  "references": {
+    "bow": {
+      "file": "references/bow.png",
+      "original_name": "狐狸弓手技能图鉴.png",
+      "status": "concept_sheet_reference_not_individual_production_asset"
+    },
+    "sword": {
+      "file": "references/sword.png",
+      "original_name": "劍技圖示_像素風遊戲技能面板.png",
+      "status": "concept_sheet_reference_not_individual_production_asset"
+    },
+    "staff": {
+      "file": "references/staff.png",
+      "original_name": "像素魔法杖技能圖鑑.png",
+      "status": "concept_sheet_reference_not_individual_production_asset"
+    },
+    "wizard": {
+      "file": "references/wizard.png",
+      "original_name": "兔戰士冰霜技能圖鑑.png",
+      "status": "concept_sheet_reference_not_individual_production_asset"
+    },
+    "wizard_square": {
+      "file": "references/wizard_square.png",
+      "original_name": "冰霜技能圖鑑介面.png",
+      "status": "concept_sheet_reference_not_individual_production_asset"
+    },
+    "wizard_character": {
+      "file": "references/wizard_character.png",
+      "original_name": "453(4).png",
+      "status": "concept_sheet_reference_not_individual_production_asset"
+    },
+    "neutral_reference": {
+      "file": "references/neutral_reference.png",
+      "original_name": "像素風格胡蘿蔔技能圖示列.png",
+      "status": "concept_sheet_reference_not_individual_production_asset"
+    },
+    "game_ui": {
+      "file": "references/game_ui.png",
+      "original_name": "像素港口升級技能選擇畫面.png",
+      "status": "concept_sheet_reference_not_individual_production_asset"
+    }
+  },
+  "icon_crops": [
+    {
+      "skill": "Longbow Shot",
+      "group": "bow",
+      "preview": "icons_preview/bow/01_longbow_shot_preview.png",
+      "derived_32x32": "icons_preview/bow/01_longbow_shot_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/bow.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Quick Draw",
+      "group": "bow",
+      "preview": "icons_preview/bow/02_quick_draw_preview.png",
+      "derived_32x32": "icons_preview/bow/02_quick_draw_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/bow.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Piercing Line",
+      "group": "bow",
+      "preview": "icons_preview/bow/03_piercing_line_preview.png",
+      "derived_32x32": "icons_preview/bow/03_piercing_line_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/bow.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Charged Shot",
+      "group": "bow",
+      "preview": "icons_preview/bow/04_charged_shot_preview.png",
+      "derived_32x32": "icons_preview/bow/04_charged_shot_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/bow.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Split Volley",
+      "group": "bow",
+      "preview": "icons_preview/bow/05_split_volley_preview.png",
+      "derived_32x32": "icons_preview/bow/05_split_volley_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/bow.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Hunter's Relay",
+      "group": "bow",
+      "preview": "icons_preview/bow/06_hunter_s_relay_preview.png",
+      "derived_32x32": "icons_preview/bow/06_hunter_s_relay_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/bow.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Swordplay",
+      "group": "sword",
+      "preview": "icons_preview/sword/01_swordplay_preview.png",
+      "derived_32x32": "icons_preview/sword/01_swordplay_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/sword.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Duel Tempo",
+      "group": "sword",
+      "preview": "icons_preview/sword/02_duel_tempo_preview.png",
+      "derived_32x32": "icons_preview/sword/02_duel_tempo_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/sword.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Armor Rend",
+      "group": "sword",
+      "preview": "icons_preview/sword/03_armor_rend_preview.png",
+      "derived_32x32": "icons_preview/sword/03_armor_rend_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/sword.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Duelist Step",
+      "group": "sword",
+      "preview": "icons_preview/sword/04_duelist_step_preview.png",
+      "derived_32x32": "icons_preview/sword/04_duelist_step_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/sword.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Crescent Cleave",
+      "group": "sword",
+      "preview": "icons_preview/sword/05_crescent_cleave_preview.png",
+      "derived_32x32": "icons_preview/sword/05_crescent_cleave_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/sword.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Final Cut",
+      "group": "sword",
+      "preview": "icons_preview/sword/06_final_cut_preview.png",
+      "derived_32x32": "icons_preview/sword/06_final_cut_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/sword.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Arcane Blast",
+      "group": "staff",
+      "preview": "icons_preview/staff/01_arcane_blast_preview.png",
+      "derived_32x32": "icons_preview/staff/01_arcane_blast_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/staff.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Arcane Focus",
+      "group": "staff",
+      "preview": "icons_preview/staff/02_arcane_focus_preview.png",
+      "derived_32x32": "icons_preview/staff/02_arcane_focus_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/staff.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Residual Sigil",
+      "group": "staff",
+      "preview": "icons_preview/staff/03_residual_sigil_preview.png",
+      "derived_32x32": "icons_preview/staff/03_residual_sigil_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/staff.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Spell Echo",
+      "group": "staff",
+      "preview": "icons_preview/staff/04_spell_echo_preview.png",
+      "derived_32x32": "icons_preview/staff/04_spell_echo_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/staff.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Comet Impact",
+      "group": "staff",
+      "preview": "icons_preview/staff/05_comet_impact_preview.png",
+      "derived_32x32": "icons_preview/staff/05_comet_impact_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/staff.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Spatial Refraction",
+      "group": "staff",
+      "preview": "icons_preview/staff/06_spatial_refraction_preview.png",
+      "derived_32x32": "icons_preview/staff/06_spatial_refraction_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/staff.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Frost Fracture",
+      "group": "wizard",
+      "preview": "icons_preview/wizard/01_frost_fracture_preview.png",
+      "derived_32x32": "icons_preview/wizard/01_frost_fracture_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/wizard.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Shatter Spread",
+      "group": "wizard",
+      "preview": "icons_preview/wizard/02_shatter_spread_preview.png",
+      "derived_32x32": "icons_preview/wizard/02_shatter_spread_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/wizard.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Frozen Prison",
+      "group": "wizard",
+      "preview": "icons_preview/wizard/03_frozen_prison_preview.png",
+      "derived_32x32": "icons_preview/wizard/03_frozen_prison_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/wizard.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Ice Mirror",
+      "group": "wizard",
+      "preview": "icons_preview/wizard/04_ice_mirror_preview.png",
+      "derived_32x32": "icons_preview/wizard/04_ice_mirror_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/wizard.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Blizzard Domain",
+      "group": "wizard",
+      "preview": "icons_preview/wizard/05_blizzard_domain_preview.png",
+      "derived_32x32": "icons_preview/wizard/05_blizzard_domain_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/wizard.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Glacial Singularity",
+      "group": "wizard",
+      "preview": "icons_preview/wizard/06_glacial_singularity_preview.png",
+      "derived_32x32": "icons_preview/wizard/06_glacial_singularity_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/wizard.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    }
+  ],
+  "source_priority": "structured skills_all.json > image labels > older screenshots",
+  "important": "Reference boards contain older names and abilities; do not implement from image text"
+}

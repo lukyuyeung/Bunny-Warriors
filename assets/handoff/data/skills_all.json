@@ -1,0 +1,1375 @@
+{
+  "schema_version": "1.0",
+  "status": "design_handoff_NOT_engine_balanced",
+  "total_skills": 68,
+  "skills": [
+    {
+      "id": "weapon_bow_01",
+      "group": "weapon",
+      "weapon": "bow",
+      "rarity": "fixed",
+      "name_en": "Longbow Shot",
+      "description_en": "Single straight arrow; basic ranged attack.",
+      "level_1_to_8": [
+        "75 damage/arrow; 1.25s interval; 11 tiles",
+        "88 damage",
+        "1.20s interval",
+        "100 damage",
+        "12 tiles range",
+        "pierce 1 extra normal enemy",
+        "1.10s interval",
+        "125 damage"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_bow_02",
+      "group": "weapon",
+      "weapon": "bow",
+      "rarity": "white",
+      "name_en": "Quick Draw",
+      "description_en": "Increase bow attack speed.",
+      "level_1_to_8": [
+        "+8% bow attack speed",
+        "+12%",
+        "+16%",
+        "+20%",
+        "+24%",
+        "+28%",
+        "+32%",
+        "+36%"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_bow_03",
+      "group": "weapon",
+      "weapon": "bow",
+      "rarity": "green",
+      "name_en": "Piercing Line",
+      "description_en": "Every few attacks, a piercing arrow travels through targets.",
+      "level_1_to_8": [
+        "every 5th attack: 110% arrow damage; pierces 2 extra enemies",
+        "125% damage",
+        "pierces 3",
+        "140% damage",
+        "every 4th attack",
+        "155% damage",
+        "pierces 4",
+        "175% damage"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_bow_04",
+      "group": "weapon",
+      "weapon": "bow",
+      "rarity": "blue",
+      "name_en": "Charged Shot",
+      "description_en": "Periodically launch a precision, high-damage shot.",
+      "level_1_to_8": [
+        "every 11s: 210% arrow reference damage; single main target",
+        "245% damage",
+        "10s cooldown",
+        "285% damage",
+        "+45% arrow reference damage on elite/boss hit",
+        "325% damage",
+        "9s cooldown",
+        "375% damage"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_bow_05",
+      "group": "weapon",
+      "weapon": "bow",
+      "rarity": "purple",
+      "name_en": "Split Volley",
+      "description_en": "Fire spread arrows in a forward fan; one per target per volley.",
+      "level_1_to_8": [
+        "every 6th attack: 3 arrows at 65% each",
+        "72% each",
+        "60° spread",
+        "80% each",
+        "every 5th attack",
+        "88% each",
+        "5 arrows",
+        "100% each"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_bow_06",
+      "group": "weapon",
+      "weapon": "bow",
+      "rarity": "orange",
+      "name_en": "Hunter's Relay",
+      "description_en": "A kill fires a follow-up tracking arrow toward another enemy.",
+      "level_1_to_8": [
+        "kill -> 1 tracking arrow at 75% reference; 6 tiles; 8s cooldown",
+        "90%",
+        "7s cooldown",
+        "105%",
+        "elite kill -> 2 arrows to different targets",
+        "120%",
+        "5.5s cooldown",
+        "9 tiles seek range"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_sword_01",
+      "group": "weapon",
+      "weapon": "sword",
+      "rarity": "fixed",
+      "name_en": "Swordplay",
+      "description_en": "Close range frontal sword attack.",
+      "level_1_to_8": [
+        "100 damage; 1.05s interval; 2.3 tiles; 100° sweep",
+        "115 damage",
+        "2.5 tiles reach",
+        "135 damage",
+        "1.00s interval",
+        "155 damage",
+        "2.8 tiles reach",
+        "180 damage"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_sword_02",
+      "group": "weapon",
+      "weapon": "sword",
+      "rarity": "white",
+      "name_en": "Duel Tempo",
+      "description_en": "Consecutive hits on a primary target empower a follow-up slash.",
+      "level_1_to_8": [
+        "2nd consecutive hit same primary target: +20%; reset after 3s",
+        "+28%",
+        "4s reset window",
+        "+36%",
+        "follow-up 0.25s slash at 60% reference",
+        "+44%",
+        "5s reset window",
+        "+55%"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_sword_03",
+      "group": "weapon",
+      "weapon": "sword",
+      "rarity": "green",
+      "name_en": "Armor Rend",
+      "description_en": "Repeated primary-target attacks reduce target armor.",
+      "level_1_to_8": [
+        "every 4th attack: -8% armor on primary target for 4s",
+        "-11% armor",
+        "5s duration",
+        "-14% armor",
+        "every 3rd attack",
+        "-17% armor",
+        "6s duration",
+        "-20% armor (global 30% armor reduction cap)"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_sword_04",
+      "group": "weapon",
+      "weapon": "sword",
+      "rarity": "blue",
+      "name_en": "Duelist Step",
+      "description_en": "After a slash, gain a brief burst of player-controlled movement speed.",
+      "level_1_to_8": [
+        "every 12s: after next slash, movement +18% for 0.5s",
+        "+23% movement",
+        "0.7s duration",
+        "+28% movement",
+        "10s cooldown",
+        "+33% movement",
+        "0.9s duration",
+        "+40% movement"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_sword_05",
+      "group": "weapon",
+      "weapon": "sword",
+      "rarity": "purple",
+      "name_en": "Crescent Cleave",
+      "description_en": "A periodic near-range sweeping attack; not a ranged sword wave.",
+      "level_1_to_8": [
+        "every 9s: 140° crescent swing; 2.6 tiles; 120% reference",
+        "145% damage",
+        "165° arc",
+        "170% damage",
+        "8s cooldown",
+        "200% damage",
+        "3.0 tiles range",
+        "240% damage"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_sword_06",
+      "group": "weapon",
+      "weapon": "sword",
+      "rarity": "orange",
+      "name_en": "Final Cut",
+      "description_en": "A low-HP-target execution damage bonus; capped on bosses.",
+      "level_1_to_8": [
+        "normal enemy HP≤20%, elite HP≤12%, boss HP≤8%: add 100% reference damage; target ICD 4s",
+        "130% damage",
+        "normal HP threshold 25%",
+        "160% damage",
+        "boss threshold 12%",
+        "190% damage",
+        "target ICD 3s",
+        "230% damage"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_staff_01",
+      "group": "weapon",
+      "weapon": "staff",
+      "rarity": "fixed",
+      "name_en": "Arcane Blast",
+      "description_en": "Predicted ground-targeted area magic blast; no innate frost.",
+      "level_1_to_8": [
+        "100 damage; 1.80s; 1.5 tiles blast radius; 9 tiles range",
+        "115 damage",
+        "1.7 tiles radius",
+        "130 damage",
+        "0.55s target prediction",
+        "148 damage",
+        "1.70s interval",
+        "165 damage"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_staff_02",
+      "group": "weapon",
+      "weapon": "staff",
+      "rarity": "white",
+      "name_en": "Arcane Focus",
+      "description_en": "Targets closer to blast center take additional damage.",
+      "level_1_to_8": [
+        "blast core radius 0.65 tiles grants +20% reference damage",
+        "+28% damage",
+        "0.75 tiles core",
+        "+36% damage",
+        "0.85 tiles core",
+        "+44% damage",
+        "0.95 tiles core",
+        "+55% damage"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_staff_03",
+      "group": "weapon",
+      "weapon": "staff",
+      "rarity": "green",
+      "name_en": "Residual Sigil",
+      "description_en": "Periodic arcane blast leaves a damaging zone at its impact site.",
+      "level_1_to_8": [
+        "every 4th blast: lingering zone 2s, 24% reference damage per second",
+        "30% damage/s",
+        "2.5s duration",
+        "36% damage/s",
+        "every 3rd blast",
+        "42% damage/s",
+        "3s duration",
+        "50% damage/s"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_staff_04",
+      "group": "weapon",
+      "weapon": "staff",
+      "rarity": "blue",
+      "name_en": "Spell Echo",
+      "description_en": "Delayed small second blast after a number of staff attacks.",
+      "level_1_to_8": [
+        "every 5th blast: after 0.65s extra 45% reference explosion",
+        "55% damage",
+        "1.4 tiles echo radius",
+        "65% damage",
+        "every 4th blast",
+        "75% damage",
+        "1.6 tiles echo radius",
+        "90% damage"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_staff_05",
+      "group": "weapon",
+      "weapon": "staff",
+      "rarity": "purple",
+      "name_en": "Comet Impact",
+      "description_en": "Telegraphed large magic strike with a delay.",
+      "level_1_to_8": [
+        "every 15s: comet at 300% reference, 2.8 tiles radius; 1.2s warning",
+        "360% damage",
+        "1.0s warning",
+        "425% damage",
+        "3.2 tiles radius",
+        "500% damage",
+        "13s cooldown",
+        "600% damage"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "weapon_staff_06",
+      "group": "weapon",
+      "weapon": "staff",
+      "rarity": "orange",
+      "name_en": "Spatial Refraction",
+      "description_en": "Secondary magic blast at a separate enemy cluster.",
+      "level_1_to_8": [
+        "every 7th blast: second enemy group, 65% reference, 1.5 tiles radius, 6 tiles search",
+        "80% damage",
+        "1.8 tiles radius",
+        "95% damage",
+        "every 6th blast",
+        "110% damage",
+        "9 tiles search",
+        "130% damage"
+      ],
+      "notes": "Latest curated V8 + V9 specification. Levels 2-8 list changed property; all unchanged properties carry forward."
+    },
+    {
+      "id": "neutral_01",
+      "group": "neutral_attack",
+      "rarity": "green",
+      "name_en": "Carrot Orbit",
+      "description_en": "Rotating carrot contact damage around player",
+      "level_1_to_8": [
+        "1 carrot; 35% reference damage; 1.5 tiles orbit; same-target hit ICD 0.8s",
+        "45% damage",
+        "2 carrots",
+        "1.7 tiles radius",
+        "55% damage",
+        "3 carrots",
+        "same-target hit ICD 0.7s",
+        "4 carrots"
+      ],
+      "notes": "V10 proposed 12-neutral-skills pool; subject to combat testing."
+    },
+    {
+      "id": "neutral_02",
+      "group": "neutral_attack",
+      "rarity": "green",
+      "name_en": "Boomerang",
+      "description_en": "Projectile flies outward then returns; can hit in both directions",
+      "level_1_to_8": [
+        "1 boomerang; outward and return each 65%; cooldown 6s",
+        "75% damage",
+        "range 9 tiles",
+        "5.5s cooldown",
+        "2 boomerangs",
+        "90% damage",
+        "5s cooldown",
+        "3 boomerangs"
+      ],
+      "notes": "V10 proposed 12-neutral-skills pool; subject to combat testing."
+    },
+    {
+      "id": "neutral_03",
+      "group": "neutral_attack",
+      "rarity": "blue",
+      "name_en": "Rolling Barrel",
+      "description_en": "Rolls in movement direction; does not track targets",
+      "level_1_to_8": [
+        "120% damage; roll 7 tiles; cooldown 9s",
+        "145% damage",
+        "roll 9 tiles",
+        "8s cooldown",
+        "barrel width +30%",
+        "175% damage",
+        "7s cooldown",
+        "roll 12 tiles"
+      ],
+      "notes": "V10 proposed 12-neutral-skills pool; subject to combat testing."
+    },
+    {
+      "id": "neutral_04",
+      "group": "neutral_attack",
+      "rarity": "white",
+      "name_en": "Spring Launcher",
+      "description_en": "Knocks nearest normal fox away without receiving damage",
+      "level_1_to_8": [
+        "50% damage; knockback 1.5 tiles; cooldown 12s",
+        "70% damage",
+        "knockback 2 tiles",
+        "11s cooldown",
+        "can knock back 2 normal targets",
+        "90% damage",
+        "9s cooldown",
+        "knockback 3 tiles"
+      ],
+      "notes": "V10 proposed 12-neutral-skills pool; subject to combat testing."
+    },
+    {
+      "id": "neutral_05",
+      "group": "neutral_attack",
+      "rarity": "green",
+      "name_en": "Carrot Mine",
+      "description_en": "Triggered when an enemy steps on it; placed behind moving player",
+      "level_1_to_8": [
+        "90% damage; lifetime 12s; deploy every 6s",
+        "110% damage",
+        "max 3 active",
+        "trigger radius 1.3 tiles",
+        "140% damage",
+        "deploy every 5s",
+        "max 4 active",
+        "170% damage"
+      ],
+      "notes": "V10 proposed 12-neutral-skills pool; subject to combat testing."
+    },
+    {
+      "id": "neutral_06",
+      "group": "neutral_attack",
+      "rarity": "blue",
+      "name_en": "Mini Turret",
+      "description_en": "Fixed deployed cannon; deployment cooldown independent of firing speed",
+      "level_1_to_8": [
+        "deploy cooldown 18s; lifetime 8s; 0.9s firing interval; 35% reference damage",
+        "45% damage",
+        "10s lifetime",
+        "0.8s firing interval",
+        "15s deployment cooldown",
+        "55% damage",
+        "max 2 simultaneously, separately deployed",
+        "0.7s firing interval"
+      ],
+      "notes": "V10 proposed 12-neutral-skills pool; subject to combat testing."
+    },
+    {
+      "id": "neutral_07",
+      "group": "neutral_attack",
+      "rarity": "purple",
+      "name_en": "Escort Drone",
+      "description_en": "Low-damage drone follows player and shoots automatically",
+      "level_1_to_8": [
+        "1 drone; fires every 1s; 25% reference damage",
+        "35% damage",
+        "6 tiles range",
+        "0.9s firing interval",
+        "2 drones",
+        "45% damage",
+        "0.8s firing interval",
+        "3 drones"
+      ],
+      "notes": "V10 proposed 12-neutral-skills pool; subject to combat testing."
+    },
+    {
+      "id": "neutral_08",
+      "group": "neutral_attack",
+      "rarity": "blue",
+      "name_en": "Pressure Bomb",
+      "description_en": "Timed bomb dropped behind player, not staff target prediction",
+      "level_1_to_8": [
+        "150% reference damage; 10s cooldown; explosion delay 2s; radius 2 tiles",
+        "180% damage",
+        "radius 2.3 tiles",
+        "9s cooldown",
+        "fuse 1.5s",
+        "220% damage",
+        "8s cooldown",
+        "radius 2.8 tiles"
+      ],
+      "notes": "V10 proposed 12-neutral-skills pool; subject to combat testing."
+    },
+    {
+      "id": "neutral_09",
+      "group": "neutral_attack",
+      "rarity": "purple",
+      "name_en": "Pinball",
+      "description_en": "Physics bouncing projectile; no homing or kill chasing",
+      "level_1_to_8": [
+        "70% reference damage; max 4 ricochets; 8s cooldown",
+        "85% damage",
+        "5 ricochets",
+        "7s cooldown",
+        "extra wall bounce",
+        "100% damage",
+        "7 ricochets",
+        "6s cooldown"
+      ],
+      "notes": "V10 proposed 12-neutral-skills pool; subject to combat testing."
+    },
+    {
+      "id": "neutral_10",
+      "group": "neutral_attack",
+      "rarity": "purple",
+      "name_en": "Tesla Tether",
+      "description_en": "One-target continuous electrical tether; no chain jumps",
+      "level_1_to_8": [
+        "70% damage per second; reach 4 tiles; maximum 3s; 9s cooldown",
+        "85% DPS",
+        "reach 5 tiles",
+        "duration 4s",
+        "8s cooldown",
+        "100% DPS",
+        "duration 5s",
+        "7s cooldown"
+      ],
+      "notes": "V10 proposed 12-neutral-skills pool; subject to combat testing."
+    },
+    {
+      "id": "neutral_11",
+      "group": "neutral_attack",
+      "rarity": "blue",
+      "name_en": "Saw Rail",
+      "description_en": "Saw rolls back and forth along a short fixed rail, not a sword slash",
+      "level_1_to_8": [
+        "55% reference damage per contact; rail 4 tiles; active 5s; cooldown 14s",
+        "70% damage",
+        "5 tile rail",
+        "13s cooldown",
+        "speed +20%",
+        "85% damage",
+        "7s duration",
+        "11s cooldown"
+      ],
+      "notes": "V10 proposed 12-neutral-skills pool; subject to combat testing."
+    },
+    {
+      "id": "neutral_12",
+      "group": "neutral_attack",
+      "rarity": "orange",
+      "name_en": "Star Sprinkler",
+      "description_en": "Omnidirectional metal darts; no homing and no armor break",
+      "level_1_to_8": [
+        "every 10s launches 8 directions; each dart 45% reference",
+        "55% damage",
+        "12 directions",
+        "9s cooldown",
+        "range 8 tiles",
+        "65% damage",
+        "8s cooldown",
+        "16 directions"
+      ],
+      "notes": "V10 proposed 12-neutral-skills pool; subject to combat testing."
+    },
+    {
+      "id": "passive_01",
+      "group": "passive",
+      "rarity": "white",
+      "name_en": "Power Training",
+      "description_en": "All damage +%",
+      "level_1_to_8": [
+        "5%",
+        "8%",
+        "11%",
+        "14%",
+        "17%",
+        "20%",
+        "23%",
+        "26%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_02",
+      "group": "passive",
+      "rarity": "white",
+      "name_en": "Vitality Training",
+      "description_en": "Maximum HP +%",
+      "level_1_to_8": [
+        "8%",
+        "12%",
+        "16%",
+        "20%",
+        "24%",
+        "28%",
+        "32%",
+        "36%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_03",
+      "group": "passive",
+      "rarity": "white",
+      "name_en": "Swift Steps",
+      "description_en": "Movement speed +%",
+      "level_1_to_8": [
+        "4%",
+        "6%",
+        "8%",
+        "10%",
+        "12%",
+        "14%",
+        "16%",
+        "18%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_04",
+      "group": "passive",
+      "rarity": "white",
+      "name_en": "Pickup Magnet",
+      "description_en": "Pickup radius +%",
+      "level_1_to_8": [
+        "20%",
+        "30%",
+        "40%",
+        "50%",
+        "65%",
+        "80%",
+        "95%",
+        "110%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_05",
+      "group": "passive",
+      "rarity": "white",
+      "name_en": "Attack Training",
+      "description_en": "Weapon basic attack speed +%",
+      "level_1_to_8": [
+        "6%",
+        "9%",
+        "12%",
+        "15%",
+        "19%",
+        "22%",
+        "26%",
+        "30%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_06",
+      "group": "passive",
+      "rarity": "green",
+      "name_en": "Defense Armor",
+      "description_en": "Passive damage reduction %",
+      "level_1_to_8": [
+        "4%",
+        "6%",
+        "8%",
+        "10%",
+        "12%",
+        "14%",
+        "16%",
+        "18%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_07",
+      "group": "passive",
+      "rarity": "green",
+      "name_en": "Health Regeneration",
+      "description_en": "Restores max HP % every 5s",
+      "level_1_to_8": [
+        "0.6%",
+        "0.8%",
+        "1%",
+        "1.2%",
+        "1.5%",
+        "1.8%",
+        "2.1%",
+        "2.5%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_08",
+      "group": "passive",
+      "rarity": "green",
+      "name_en": "Critical Focus",
+      "description_en": "Critical chance + percentage points",
+      "level_1_to_8": [
+        "3%",
+        "5%",
+        "7%",
+        "9%",
+        "11%",
+        "13%",
+        "15%",
+        "17%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_09",
+      "group": "passive",
+      "rarity": "green",
+      "name_en": "Skill Cooldown",
+      "description_en": "AutoSkill cooldown reduction %",
+      "level_1_to_8": [
+        "4%",
+        "6%",
+        "8%",
+        "10%",
+        "12%",
+        "14%",
+        "16%",
+        "18%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_10",
+      "group": "passive",
+      "rarity": "green",
+      "name_en": "Experience Boost",
+      "description_en": "XP gain +%",
+      "level_1_to_8": [
+        "6%",
+        "9%",
+        "12%",
+        "15%",
+        "18%",
+        "21%",
+        "24%",
+        "27%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_11",
+      "group": "passive",
+      "rarity": "blue",
+      "name_en": "Critical Power",
+      "description_en": "Critical damage + percentage points",
+      "level_1_to_8": [
+        "12%",
+        "18%",
+        "24%",
+        "30%",
+        "36%",
+        "42%",
+        "48%",
+        "55%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_12",
+      "group": "passive",
+      "rarity": "blue",
+      "name_en": "Area Extension",
+      "description_en": "Area effect radius +%",
+      "level_1_to_8": [
+        "6%",
+        "9%",
+        "12%",
+        "15%",
+        "19%",
+        "23%",
+        "26%",
+        "30%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_13",
+      "group": "passive",
+      "rarity": "blue",
+      "name_en": "Duration Extension",
+      "description_en": "Eligible duration +%",
+      "level_1_to_8": [
+        "8%",
+        "12%",
+        "16%",
+        "20%",
+        "24%",
+        "28%",
+        "32%",
+        "36%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_14",
+      "group": "passive",
+      "rarity": "blue",
+      "name_en": "Impact Force",
+      "description_en": "Knockback distance +%",
+      "level_1_to_8": [
+        "10%",
+        "15%",
+        "20%",
+        "25%",
+        "30%",
+        "35%",
+        "40%",
+        "45%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_15",
+      "group": "passive",
+      "rarity": "blue",
+      "name_en": "Emergency Heal",
+      "description_en": "One-time heal on low HP",
+      "level_1_to_8": [
+        "HP≤25%; heal12%",
+        "HP≤27%; heal12%",
+        "HP≤27%; heal15%",
+        "HP≤30%; heal15%",
+        "+15% movement 1s on trigger",
+        "HP≤30%; heal20%",
+        "HP≤35%; heal20%",
+        "HP≤35%; heal26%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_16",
+      "group": "passive",
+      "rarity": "purple",
+      "name_en": "Life Drain",
+      "description_en": "On weapon hit cycle lifesteal",
+      "level_1_to_8": [
+        "8% proc heal1%",
+        "10% proc heal1%",
+        "proc grants 1s heal-interruption resistance",
+        "12% proc heal1%",
+        "12% proc heal1.5%",
+        "15% proc heal1.5%",
+        "15% proc heal2%",
+        "18% proc heal2.5%"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_17",
+      "group": "passive",
+      "rarity": "purple",
+      "name_en": "Counter Armor",
+      "description_en": "On real HP damage area response",
+      "level_1_to_8": [
+        "35 damage; CD7s",
+        "45 damage",
+        "radius 2 tiles",
+        "65 damage",
+        "normal fox knockback0.5 tiles",
+        "CD6s",
+        "100 damage",
+        "135 damage"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_18",
+      "group": "passive",
+      "rarity": "purple",
+      "name_en": "Last Stand",
+      "description_en": "Low-health damage boost",
+      "level_1_to_8": [
+        "HP≤30% +10% damage",
+        "+15% damage",
+        "HP≤35% threshold",
+        "+22% damage",
+        "effect lingers 2s after exit",
+        "+30% damage",
+        "HP≤40% threshold",
+        "+45% damage"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_19",
+      "group": "passive",
+      "rarity": "purple",
+      "name_en": "Agile Dodge",
+      "description_en": "Dodge and movement",
+      "level_1_to_8": [
+        "dodge+2pp",
+        "dodge+3pp",
+        "dodge success move+10% 1s",
+        "dodge+5pp",
+        "movement lasts1.5s",
+        "dodge+7pp",
+        "movement+15%",
+        "dodge+10pp"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "passive_20",
+      "group": "passive",
+      "rarity": "orange",
+      "name_en": "Fortune Favor",
+      "description_en": "Dodge and eligible in-run loot bonuses",
+      "level_1_to_8": [
+        "dodge+2pp",
+        "ordinary in-run drops+5%",
+        "dodge+4pp",
+        "quality weight×1.08",
+        "ordinary drops+10%",
+        "dodge+6pp",
+        "quality weight×1.15",
+        "dodge+10pp;drops+20%;quality weight×1.20"
+      ],
+      "notes": "V7 passive design; per-level changes/effects. Subject to tuning."
+    },
+    {
+      "id": "character_base_bunny_white",
+      "group": "character_passive",
+      "character": "base_bunny",
+      "rarity": "white",
+      "name_en": "Quick Learner",
+      "description_en": "XP gain +10%.",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "character_base_bunny_green",
+      "group": "character_passive",
+      "character": "base_bunny",
+      "rarity": "green",
+      "name_en": "Second Chance",
+      "description_en": "Once per run at ≤30% HP: heal 20% max HP and ignore normal contact damage for 1 second.",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "character_base_bunny_blue",
+      "group": "character_passive",
+      "character": "base_bunny",
+      "rarity": "blue",
+      "name_en": "Skill Discovery",
+      "description_en": "First acquired weapon-specific skill starts at Lv.2, once per run.",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "character_base_bunny_purple",
+      "group": "character_passive",
+      "character": "base_bunny",
+      "rarity": "purple",
+      "name_en": "Battle Supplies",
+      "description_en": "Every five level-ups drop one in-run supply, capped at three per run.",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "character_base_bunny_orange",
+      "group": "character_passive",
+      "character": "base_bunny",
+      "rarity": "orange",
+      "name_en": "Adaptive Tactics",
+      "description_en": "After first elite kill select one of two weapon-dependent in-run tactic enhancements.",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "character_wizard_white",
+      "group": "character_passive",
+      "character": "wizard",
+      "rarity": "white",
+      "name_en": "Frost Fracture",
+      "description_en": "Valid weapon hit applies 25% slow for 2s and one Frost Crack (same target at most 1 stack per 1.25s). On 3 stacks shatter for 80% weapon reference damage; target ICD 5s.",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "character_wizard_green",
+      "group": "character_passive",
+      "character": "wizard",
+      "rarity": "green",
+      "name_en": "Shatter Spread",
+      "description_en": "Frost shatter becomes 1.6-tile AoE; no recursive chaining.",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "character_wizard_blue",
+      "group": "character_passive",
+      "character": "wizard",
+      "rarity": "blue",
+      "name_en": "Frozen Prison",
+      "description_en": "Every 14s creates 2-tile ice field; normal foxes freeze 1.2s; boss only slows up to 15%.",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "character_wizard_purple",
+      "group": "character_passive",
+      "character": "wizard",
+      "rarity": "purple",
+      "name_en": "Ice Mirror",
+      "description_en": "Every 20s an ice decoy lures normal foxes for 4s, then bursts; boss not taunted.",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "character_wizard_orange",
+      "group": "character_passive",
+      "character": "wizard",
+      "rarity": "orange",
+      "name_en": "Blizzard Domain",
+      "description_en": "Every 28s creates a 4-tile storm for 5s; 35% reference DPS; slows normal foxes 45%.",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "character_knight_white",
+      "group": "character_passive",
+      "character": "knight",
+      "rarity": "white",
+      "name_en": "Royal Block",
+      "description_en": "One prepared guard every 15s mitigates 50% of next eligible direct hit (NOT zero damage).",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "character_knight_green",
+      "group": "character_passive",
+      "character": "knight",
+      "rarity": "green",
+      "name_en": "Weak Point",
+      "description_en": "Successful guard makes next weapon hit on one primary target critical within 10s.",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "character_knight_blue",
+      "group": "character_passive",
+      "character": "knight",
+      "rarity": "blue",
+      "name_en": "Thick Skin",
+      "description_en": "25% of actual HP damage stored as grey HP; after 4s without HP damage, convert to 6s shield capped at 12% max HP; conversion CD20s.",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "character_knight_purple",
+      "group": "character_passive",
+      "character": "knight",
+      "rarity": "purple",
+      "name_en": "Counter Wave",
+      "description_en": "Guard sends 120° short-range counter wave for 120% weapon reference damage and normal-enemy knockback.",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "character_knight_orange",
+      "group": "character_passive",
+      "character": "knight",
+      "rarity": "orange",
+      "name_en": "Royal Recovery",
+      "description_en": "Weak-point critical hit restores 3% max HP once per guard.",
+      "notes": "Passive auto-unlocked at character quality tier; does not occupy six in-run slots."
+    },
+    {
+      "id": "ultimate_base",
+      "character": "base_bunny",
+      "name_en": "Carrot Barrage",
+      "description_en": "3s forward 60° bow-like carrot projectile barrage; 15 waves; movement locked but cancelable."
+    },
+    {
+      "id": "ultimate_wizard",
+      "character": "wizard",
+      "name_en": "Glacial Singularity",
+      "description_en": "Tracking ice storm for 7s, initial burst then sustained damage and slowing; caster remains mobile; boss cannot be frozen."
+    },
+    {
+      "id": "ultimate_knight",
+      "character": "knight",
+      "name_en": "King's Retribution",
+      "description_en": "2.4s damage-taking charge with 80% mitigation, then a focused high-damage sword strike scaling with eligible incoming damage."
+    }
+  ],
+  "character_qualities": {
+    "base_bunny": [
+      [
+        "white",
+        "Quick Learner",
+        "XP gain +10%."
+      ],
+      [
+        "green",
+        "Second Chance",
+        "Once per run at ≤30% HP: heal 20% max HP and ignore normal contact damage for 1 second."
+      ],
+      [
+        "blue",
+        "Skill Discovery",
+        "First acquired weapon-specific skill starts at Lv.2, once per run."
+      ],
+      [
+        "purple",
+        "Battle Supplies",
+        "Every five level-ups drop one in-run supply, capped at three per run."
+      ],
+      [
+        "orange",
+        "Adaptive Tactics",
+        "After first elite kill select one of two weapon-dependent in-run tactic enhancements."
+      ]
+    ],
+    "wizard": [
+      [
+        "white",
+        "Frost Fracture",
+        "Valid weapon hit applies 25% slow for 2s and one Frost Crack (same target at most 1 stack per 1.25s). On 3 stacks shatter for 80% weapon reference damage; target ICD 5s."
+      ],
+      [
+        "green",
+        "Shatter Spread",
+        "Frost shatter becomes 1.6-tile AoE; no recursive chaining."
+      ],
+      [
+        "blue",
+        "Frozen Prison",
+        "Every 14s creates 2-tile ice field; normal foxes freeze 1.2s; boss only slows up to 15%."
+      ],
+      [
+        "purple",
+        "Ice Mirror",
+        "Every 20s an ice decoy lures normal foxes for 4s, then bursts; boss not taunted."
+      ],
+      [
+        "orange",
+        "Blizzard Domain",
+        "Every 28s creates a 4-tile storm for 5s; 35% reference DPS; slows normal foxes 45%."
+      ]
+    ],
+    "knight": [
+      [
+        "white",
+        "Royal Block",
+        "One prepared guard every 15s mitigates 50% of next eligible direct hit (NOT zero damage)."
+      ],
+      [
+        "green",
+        "Weak Point",
+        "Successful guard makes next weapon hit on one primary target critical within 10s."
+      ],
+      [
+        "blue",
+        "Thick Skin",
+        "25% of actual HP damage stored as grey HP; after 4s without HP damage, convert to 6s shield capped at 12% max HP; conversion CD20s."
+      ],
+      [
+        "purple",
+        "Counter Wave",
+        "Guard sends 120° short-range counter wave for 120% weapon reference damage and normal-enemy knockback."
+      ],
+      [
+        "orange",
+        "Royal Recovery",
+        "Weak-point critical hit restores 3% max HP once per guard."
+      ]
+    ]
+  },
+  "ultimate": [
+    {
+      "id": "ultimate_base",
+      "character": "base_bunny",
+      "name_en": "Carrot Barrage",
+      "description_en": "3s forward 60° bow-like carrot projectile barrage; 15 waves; movement locked but cancelable."
+    },
+    {
+      "id": "ultimate_wizard",
+      "character": "wizard",
+      "name_en": "Glacial Singularity",
+      "description_en": "Tracking ice storm for 7s, initial burst then sustained damage and slowing; caster remains mobile; boss cannot be frozen."
+    },
+    {
+      "id": "ultimate_knight",
+      "character": "knight",
+      "name_en": "King's Retribution",
+      "description_en": "2.4s damage-taking charge with 80% mitigation, then a focused high-damage sword strike scaling with eligible incoming damage."
+    }
+  ],
+  "icon_manifest": [
+    {
+      "skill": "Longbow Shot",
+      "group": "bow",
+      "preview": "icons_preview/bow/01_longbow_shot_preview.png",
+      "derived_32x32": "icons_preview/bow/01_longbow_shot_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/bow.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Quick Draw",
+      "group": "bow",
+      "preview": "icons_preview/bow/02_quick_draw_preview.png",
+      "derived_32x32": "icons_preview/bow/02_quick_draw_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/bow.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Piercing Line",
+      "group": "bow",
+      "preview": "icons_preview/bow/03_piercing_line_preview.png",
+      "derived_32x32": "icons_preview/bow/03_piercing_line_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/bow.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Charged Shot",
+      "group": "bow",
+      "preview": "icons_preview/bow/04_charged_shot_preview.png",
+      "derived_32x32": "icons_preview/bow/04_charged_shot_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/bow.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Split Volley",
+      "group": "bow",
+      "preview": "icons_preview/bow/05_split_volley_preview.png",
+      "derived_32x32": "icons_preview/bow/05_split_volley_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/bow.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Hunter's Relay",
+      "group": "bow",
+      "preview": "icons_preview/bow/06_hunter_s_relay_preview.png",
+      "derived_32x32": "icons_preview/bow/06_hunter_s_relay_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/bow.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Swordplay",
+      "group": "sword",
+      "preview": "icons_preview/sword/01_swordplay_preview.png",
+      "derived_32x32": "icons_preview/sword/01_swordplay_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/sword.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Duel Tempo",
+      "group": "sword",
+      "preview": "icons_preview/sword/02_duel_tempo_preview.png",
+      "derived_32x32": "icons_preview/sword/02_duel_tempo_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/sword.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Armor Rend",
+      "group": "sword",
+      "preview": "icons_preview/sword/03_armor_rend_preview.png",
+      "derived_32x32": "icons_preview/sword/03_armor_rend_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/sword.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Duelist Step",
+      "group": "sword",
+      "preview": "icons_preview/sword/04_duelist_step_preview.png",
+      "derived_32x32": "icons_preview/sword/04_duelist_step_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/sword.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Crescent Cleave",
+      "group": "sword",
+      "preview": "icons_preview/sword/05_crescent_cleave_preview.png",
+      "derived_32x32": "icons_preview/sword/05_crescent_cleave_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/sword.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Final Cut",
+      "group": "sword",
+      "preview": "icons_preview/sword/06_final_cut_preview.png",
+      "derived_32x32": "icons_preview/sword/06_final_cut_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/sword.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Arcane Blast",
+      "group": "staff",
+      "preview": "icons_preview/staff/01_arcane_blast_preview.png",
+      "derived_32x32": "icons_preview/staff/01_arcane_blast_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/staff.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Arcane Focus",
+      "group": "staff",
+      "preview": "icons_preview/staff/02_arcane_focus_preview.png",
+      "derived_32x32": "icons_preview/staff/02_arcane_focus_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/staff.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Residual Sigil",
+      "group": "staff",
+      "preview": "icons_preview/staff/03_residual_sigil_preview.png",
+      "derived_32x32": "icons_preview/staff/03_residual_sigil_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/staff.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Spell Echo",
+      "group": "staff",
+      "preview": "icons_preview/staff/04_spell_echo_preview.png",
+      "derived_32x32": "icons_preview/staff/04_spell_echo_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/staff.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Comet Impact",
+      "group": "staff",
+      "preview": "icons_preview/staff/05_comet_impact_preview.png",
+      "derived_32x32": "icons_preview/staff/05_comet_impact_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/staff.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Spatial Refraction",
+      "group": "staff",
+      "preview": "icons_preview/staff/06_spatial_refraction_preview.png",
+      "derived_32x32": "icons_preview/staff/06_spatial_refraction_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/staff.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Frost Fracture",
+      "group": "wizard",
+      "preview": "icons_preview/wizard/01_frost_fracture_preview.png",
+      "derived_32x32": "icons_preview/wizard/01_frost_fracture_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/wizard.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Shatter Spread",
+      "group": "wizard",
+      "preview": "icons_preview/wizard/02_shatter_spread_preview.png",
+      "derived_32x32": "icons_preview/wizard/02_shatter_spread_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/wizard.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Frozen Prison",
+      "group": "wizard",
+      "preview": "icons_preview/wizard/03_frozen_prison_preview.png",
+      "derived_32x32": "icons_preview/wizard/03_frozen_prison_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/wizard.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Ice Mirror",
+      "group": "wizard",
+      "preview": "icons_preview/wizard/04_ice_mirror_preview.png",
+      "derived_32x32": "icons_preview/wizard/04_ice_mirror_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/wizard.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Blizzard Domain",
+      "group": "wizard",
+      "preview": "icons_preview/wizard/05_blizzard_domain_preview.png",
+      "derived_32x32": "icons_preview/wizard/05_blizzard_domain_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/wizard.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    },
+    {
+      "skill": "Glacial Singularity",
+      "group": "wizard",
+      "preview": "icons_preview/wizard/06_glacial_singularity_preview.png",
+      "derived_32x32": "icons_preview/wizard/06_glacial_singularity_derived_32x32_NOT_PRODUCTION.png",
+      "source_ref": "references/wizard.png",
+      "use": "CONCEPT_ONLY; visually review and redraw/approve as true native 32x32 pixel asset"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "version": "0.1-review",
+  "frame_size": [
+    64,
+    64
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "filter": "Point",
+  "compression": "None",
+  "pixels_per_unit": 64,
+  "alpha": "straight",
+  "effects": [
+    {
+      "id": "frost_fracture",
+      "frames": 24,
+      "fps": 12,
+      "loop": false,
+      "columns": 8,
+      "sheet": "frost_fracture/spritesheet.png",
+      "sorting": "ground below actors; shards above actors",
+      "duration_seconds": 2.0
+    },
+    {
+      "id": "frozen_prison",
+      "frames": 24,
+      "fps": 20,
+      "loop": false,
+      "columns": 8,
+      "sheet": "frozen_prison/spritesheet.png",
+      "sorting": "ground below actors; shards above actors",
+      "duration_seconds": 1.2
+    },
+    {
+      "id": "glacial_singularity",
+      "frames": 16,
+      "fps": 12,
+      "loop": true,
+      "columns": 8,
+      "sheet": "glacial_singularity/spritesheet.png",
+      "sorting": "ground below actors; shards above actors",
+      "duration_seconds": 1.3333333333333333
+    }
+  ],
+  "note": "Procedural review assets. Combat demonstrations are scripted illustrations, not Unity gameplay or balance verification."
+}
