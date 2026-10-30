@@ -11,3 +11,7 @@ Fire: eight generated 64 × 64 transparent frames, 0.56-second cast, active 0.14
 `assets/flame-staff/flame-pack.zip` contains fire frames and the original asset copies. Optional replacement image imports remain browser-local. No credentials or Site hosting metadata are included.
 
 Validation: `node tests/flame-test.mjs`. Browser visual verification remains pending.
+
+## Six-skill VFX laboratory
+
+Open `/labs/flame/fire-vfx.html` for all six skills with ON/OFF, standalone triggers, movement, slow motion, frame stepping and transparent sheet inspection. Assets: `assets/fire-vfx` (48 RGBA frames + 6 sheets + manifest + ZIP). Test: `node tests/fire-vfx-test.mjs`. Automatic dependencies: fireball → field; burning death → spread; three burn stacks → burst (5s target cooldown). Fire fields do not stack their DPS; burn lasts 3s, max three stacks; meteor has a warning before impact. Numbers are isolated prototype values. Standalone preview buttons intentionally trigger passive visuals without their combat prerequisite.

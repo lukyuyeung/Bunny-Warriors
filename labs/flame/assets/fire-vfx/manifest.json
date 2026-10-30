@@ -1,0 +1,67 @@
+{
+  "cell": [
+    64,
+    64
+  ],
+  "layout": [
+    8,
+    1
+  ],
+  "filter": "nearest",
+  "skills": {
+    "fan": {
+      "sheet": "fan-sheet.png",
+      "frames": 8,
+      "anchor": [
+        4,
+        32
+      ],
+      "duration": 0.56
+    },
+    "ball": {
+      "sheet": "ball-sheet.png",
+      "frames": 8,
+      "anchor": [
+        32,
+        32
+      ],
+      "duration": 0.6
+    },
+    "field": {
+      "sheet": "field-sheet.png",
+      "frames": 8,
+      "anchor": [
+        32,
+        32
+      ],
+      "duration": 3
+    },
+    "spread": {
+      "sheet": "spread-sheet.png",
+      "frames": 8,
+      "anchor": [
+        32,
+        32
+      ],
+      "duration": 0.65
+    },
+    "burst": {
+      "sheet": "burst-sheet.png",
+      "frames": 8,
+      "anchor": [
+        32,
+        32
+      ],
+      "duration": 0.65
+    },
+    "meteor": {
+      "sheet": "meteor-sheet.png",
+      "frames": 8,
+      "anchor": [
+        32,
+        32
+      ],
+      "duration": 1.6
+    }
+  }
+}
