@@ -1,0 +1,18 @@
+{
+  "frameSize": [
+    64,
+    64
+  ],
+  "frames": 8,
+  "duration": 0.56,
+  "anchor": [
+    4,
+    32
+  ],
+  "activeWindow": [
+    0.14,
+    0.35
+  ],
+  "filter": "nearest",
+  "note": "Rabbit and staff are unmodified originals from assets/originals; see original manifest for GitHub provenance."
+}

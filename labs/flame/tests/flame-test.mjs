@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {frameAt,inCone,startCast,stepCast} from '../flame-engine.mjs';
+assert.equal(frameAt(0),0);assert.equal(frameAt(.55),7);
+assert(inCone({x:0,y:0},{x:50,y:0},0));assert(!inCone({x:0,y:0},{x:-50,y:0},0));assert(!inCone({x:0,y:0},{x:100,y:0},0));
+const targets=[{id:1,x:50,y:0},{id:2,x:-50,y:0}],origin={x:0,y:0};let c=startCast(0);
+assert.deepEqual(stepCast(c,.1,origin,targets).hits,[]);
+assert.deepEqual(stepCast(c,.1,origin,targets).hits,[1]);
+assert.deepEqual(stepCast(c,.1,origin,targets).hits,[]);
+assert.equal(stepCast(c,.3,origin,targets).done,true);
+c=startCast(Math.PI);assert.deepEqual(stepCast(c,.2,origin,targets).hits,[2]);
+c=startCast(0);assert.deepEqual(stepCast(c,.56,origin,targets).hits,[1]);
+console.log('Flame tests passed: timeline, direction, range, one hit per cast, coarse-step active window.');

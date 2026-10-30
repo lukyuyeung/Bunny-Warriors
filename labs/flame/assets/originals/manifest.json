@@ -1,0 +1,200 @@
+{
+  "sourceRepository": "https://github.com/lukyuyeung/Bunny-Warriors",
+  "sourceCommit": "55fe048",
+  "assets": {
+    "walk": {
+      "source": "assets/vfx/Character/Assembled Grey Bunny (Walk).png",
+      "sha256": "cf95e2d196d572ac9af7d4b366322de4bf09cdc19387f307eb11d4f3d643de77",
+      "size": [
+        256,
+        256
+      ],
+      "cell": [
+        64,
+        64
+      ]
+    },
+    "idle": {
+      "source": "assets/vfx/Character/Assembled Grey Bunny.png",
+      "sha256": "054d2638a0f781467bae7fadd9fad4124fdd2212abc159ce19936a257dc8f287",
+      "size": [
+        128,
+        256
+      ],
+      "cell": [
+        64,
+        64
+      ]
+    },
+    "staff": {
+      "source": "assets/vfx/Weapon/Wizard_Staff.png",
+      "sha256": "bf5b3d3ed9be871b8f58f168ed06c040433fd9c5f58f366a796780c936688d9f",
+      "size": [
+        256,
+        256
+      ],
+      "cell": [
+        64,
+        64
+      ]
+    },
+    "sword": {
+      "source": "assets/vfx/Weapon/Sword.png",
+      "sha256": "5feccba4637ba97f3cd41ac705805b8e600605415d4bbab098750f20b16cea7b",
+      "size": [
+        128,
+        256
+      ],
+      "cell": [
+        64,
+        64
+      ]
+    }
+  },
+  "staffFrames": [
+    {
+      "row": 0,
+      "col": 0,
+      "gem": [
+        29.6,
+        36.0
+      ],
+      "hand": [
+        26,
+        57
+      ]
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "gem": [
+        25.0,
+        41.857142857142854
+      ],
+      "hand": [
+        25,
+        51
+      ]
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "gem": [
+        19.666666666666668,
+        51.333333333333336
+      ],
+      "hand": [
+        25,
+        48
+      ]
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "gem": [
+        25.0,
+        41.857142857142854
+      ],
+      "hand": [
+        25,
+        51
+      ]
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "gem": [
+        38.666666666666664,
+        40.333333333333336
+      ],
+      "hand": [
+        24,
+        55
+      ]
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "gem": [
+        36.5,
+        51.416666666666664
+      ],
+      "hand": [
+        16,
+        52
+      ]
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "gem": [
+        36.333333333333336,
+        52.75
+      ],
+      "hand": [
+        16,
+        47
+      ]
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "gem": [
+        38.666666666666664,
+        47.25
+      ],
+      "hand": [
+        17,
+        52
+      ]
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "gem": [
+        24.333333333333332,
+        40.333333333333336
+      ],
+      "hand": [
+        39,
+        55
+      ]
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "gem": [
+        26.5,
+        51.416666666666664
+      ],
+      "hand": [
+        47,
+        52
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "gem": [
+        26.666666666666668,
+        52.75
+      ],
+      "hand": [
+        47,
+        47
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "gem": [
+        24.333333333333332,
+        47.25
+      ],
+      "hand": [
+        46,
+        52
+      ]
+    }
+  ]
+}
