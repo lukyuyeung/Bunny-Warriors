@@ -1,0 +1,1 @@
+Six single-target sword VFX prototypes. Each sheet is 512x64 RGBA: eight 64x64 cells. Use point/nearest filtering without mipmaps. Center anchor 32,32. Duration in manifest. Use original rabbit and sword sprites separately; these are transparent overlays, not weapon projectiles. Combat timings and numbers are isolated lab prototypes.

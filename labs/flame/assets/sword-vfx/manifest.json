@@ -1,0 +1,67 @@
+{
+  "cell": [
+    64,
+    64
+  ],
+  "layout": [
+    8,
+    1
+  ],
+  "filter": "nearest",
+  "skills": {
+    "slash": {
+      "sheet": "slash-sheet.png",
+      "frames": 8,
+      "anchor": [
+        32,
+        32
+      ],
+      "duration": 0.32
+    },
+    "tempo": {
+      "sheet": "tempo-sheet.png",
+      "frames": 8,
+      "anchor": [
+        32,
+        32
+      ],
+      "duration": 0.55
+    },
+    "rend": {
+      "sheet": "rend-sheet.png",
+      "frames": 8,
+      "anchor": [
+        32,
+        32
+      ],
+      "duration": 0.42
+    },
+    "step": {
+      "sheet": "step-sheet.png",
+      "frames": 8,
+      "anchor": [
+        32,
+        32
+      ],
+      "duration": 0.6
+    },
+    "stab": {
+      "sheet": "stab-sheet.png",
+      "frames": 8,
+      "anchor": [
+        32,
+        32
+      ],
+      "duration": 0.32
+    },
+    "finish": {
+      "sheet": "finish-sheet.png",
+      "frames": 8,
+      "anchor": [
+        32,
+        32
+      ],
+      "duration": 0.48
+    }
+  }
+}
